@@ -26,7 +26,7 @@ id:1,
 
 name:"Ankita",
 
-photo:"images/friends/Ankita.jpg",
+photo:"images/friends/Ankita.jpeg",
 
 thumb:"images/thumbs/Ankita.jpeg",
 
@@ -69,7 +69,7 @@ id:2,
 
 name:"Vandana",
 
-photo:"images/friends/Vandana.jpg",
+photo:"images/friends/Vandana.jpeg",
 
 thumb:"images/thumbs/Vandana.jpeg",
 
@@ -101,7 +101,7 @@ id:3,
 
 name:"Aman",
 
-photo:"images/friends/Aman.jpg",
+photo:"images/friends/Aman.jpeg",
 
 thumb:"images/thumbs/Aman.jpeg",
 
