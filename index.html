@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- =====================================================
+         BASIC SETTINGS
+         ===================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Fantastic 4 ❤️</title>
+
+    <!-- =====================================================
+         GOOGLE FONT
+         ===================================================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Caveat:wght@400;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- =====================================================
+         MAIN CSS
+         ===================================================== -->
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- ==========================================================
+     LOADING SCREEN
+=========================================================== -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <div class="loader-logo">
+
+            ❤️
+
+        </div>
+
+        <h1>
+
+            Fantastic 4
+
+        </h1>
+
+        <p>
+
+            Preparing something special...
+
+        </p>
+
+        <div class="loader-bar">
+
+            <span></span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ==========================================================
+     FLOATING BACKGROUND
+=========================================================== -->
+
+<div id="background">
+
+    <div class="gradient"></div>
+
+    <div class="stars"></div>
+
+    <div class="particles"></div>
+
+</div>
+
+<!-- ==========================================================
+     MAIN WEBSITE
+=========================================================== -->
+
+<div id="website">
+
+<!-- ==========================================================
+     HERO SECTION
+=========================================================== -->
+
+<section id="hero">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+
+<div class="hero-badge">
+
+✨ A Small Surprise ✨
+
+</div>
+
+<h1 class="hero-title">
+
+Someone...
+
+<br>
+
+has been waiting
+
+<br>
+
+to tell you something.
+
+</h1>
+
+<p class="hero-description">
+
+Not every friendship can be explained with words.
+
+Some deserve memories.
+
+Some deserve smiles.
+
+Some deserve an entire website.
+
+</p>
+
+<button id="beginJourney">
+
+Begin The Journey ❤️
+
+</button>
+
+</div>
+
+<div class="scroll-down">
+
+↓
+
+</div>
+
+</section>
+
+<!-- ==========================================================
+     INTRO SECTION
+=========================================================== -->
+
+<section id="intro">
+
+<div class="section-container">
+
+<h2>
+
+Happy Friendship Day
+
+</h2>
+
+<div id="typingText">
+
+</div>
+
+<p class="intro-text">
+
+Every laugh.
+
+Every late-night conversation.
+
+Every inside joke.
+
+Every unexpected plan.
+
+Every unforgettable memory.
+
+This page isn't just a website.
+
+It's a small thank-you to the people who made ordinary days feel extraordinary.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ==========================================================
+     PHOTO SHOWCASE
+=========================================================== -->
+
+<section id="showcase">
+
+<div class="section-title">
+
+<h2>
+
+📸 Our Beautiful Memories
+
+</h2>
+
+<p>
+
+Swipe, click or use arrows.
+
+</p>
+
+</div>
+
+<div class="carousel">
+
+<button class="arrow left">
+
+❮
+
+</button>
+
+<div class="carousel-track">
+
+<!--
+
+Friend images will be inserted
+automatically using JavaScript.
+
+DO NOT EDIT THIS.
+
+-->
+
+</div>
+
+<button class="arrow right">
+
+❯
+
+</button>
+
+</div>
+
+<div class="photo-caption">
+
+<h3 id="friendName">
+
+Loading...
+
+</h3>
+
+<p id="friendQuote">
+
+Loading...
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ==========================================================
+     FRIEND SECTION
+=========================================================== -->
+
+<section id="friendsSection">
+
+<div class="section-title">
+
+<h2>
+
+❤️ Meet The Fantastic 4
+
+</h2>
+
+<p>
+
+Choose your name.
+
+I have something to tell you.
+
+</p>
+
+</div>
+
+<div id="friendGrid">
+
+<!--
+
+Friend cards will be generated
+automatically.
+
+DO NOT TOUCH THIS.
+
+Everything comes from
+
+friends.js
+
+-->
+
+</div>
+
+</section>
+
+<!-- ==========================================================
+     LETTER SECTION FINAL
+=========================================================== -->
+
+<div id="letterSection">
+
+
+    <div class="letter-popup">
+
+
+        <!-- Envelope animation -->
+
+        <div class="envelope">
+
+
+            <div class="envelope-back"></div>
+
+
+            <div class="envelope-flap"></div>
+
+
+        </div>
+
+
+
+        <!-- Final Letter -->
+
+
+        <div class="final-letter">
+
+
+            <div id="letterContent">
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <button id="closeLetter">
+
+            Close Letter
+
+        </button>
+
+
+    </div>
+
+
+</div>
+
+<section id="ending">
+
+<h2>
+
+Fantastic 4 Forever ❤️
+
+</h2>
+
+<p>
+
+Distance may change.
+
+Life may change.
+
+Time may change.
+
+But memories...
+
+never do.
+
+</p>
+
+<div class="heart">
+
+❤️
+
+</div>
+
+</section>
+
+</div>
+
+<!-- ==========================================================
+     CONFETTI
+=========================================================== -->
+
+<canvas id="confettiCanvas">
+
+</canvas>
+
+<!-- ==========================================================
+     MUSIC
+=========================================================== -->
+<!-- ==========================================================
+     MUSIC
+=========================================================== -->
+
+
+<audio id="bgMusic"></audio>
+
+
+<div id="musicPlayer">
+
+<button id="musicControl">
+🎵
+</button>
+
+<span id="songName">
+Loading...
+</span>
+
+<button id="previousSong">
+⏮
+</button>
+
+<button id="nextSong">
+⏭
+</button>
+
+</div>
+
+
+<!-- ==========================================================
+     JAVASCRIPT
+=========================================================== -->
+
+<script src="js/friends.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
