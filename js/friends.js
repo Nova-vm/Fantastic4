@@ -38,7 +38,7 @@ photoPrefix:"Ankita_",
 
 photoCount:9,
 
-thumb:"images/thumbs/Ankita.jpg",
+thumb:"images/thumbs/Ankita.jpeg",
 
 quote:"The one who can turn an ordinary day into an unforgettable memory.",
 
@@ -83,7 +83,7 @@ photoPrefix:"Vandana_",
 
 photoCount:5,
 
-thumb:"images/thumbs/Vandana.jpg",
+thumb:"images/thumbs/Vandana.jpeg",
 
 quote:"Every group needs someone who keeps everyone together.",
 
@@ -117,7 +117,7 @@ photoPrefix:"Aman_",
 
 photoCount:5,
 
-thumb:"images/thumbs/Aman.jpg",
+thumb:"images/thumbs/Aman.jpeg",
 
 quote:"The person behind countless smiles.",
 
@@ -149,7 +149,7 @@ photoPrefix:"Akash_",
 
 photoCount:9,
 
-thumb:"images/thumbs/Akash.jpg",
+thumb:"images/thumbs/Akash.jpeg",
 
 quote:"Some people become friends. Some become family.",
 
